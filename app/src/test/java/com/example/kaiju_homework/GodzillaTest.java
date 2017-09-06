@@ -20,12 +20,12 @@ public class GodzillaTest {
 
     @Test
     public void testGodzillaHasName() {
-        assertEquals("Godzilla", godzilla.getName());
+        assertEquals("Godzilla", godzilla.getName() );
     }
 
     @Test
     public void testGodzillaHasHealthValue() {
-        assertEquals(100, godzilla.getHealthValue());
+        assertEquals(100, godzilla.getHealthValue() );
     }
 
     @Test

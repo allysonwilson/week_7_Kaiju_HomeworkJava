@@ -21,7 +21,7 @@ public abstract class Kaiju {
         return name;
     }
 
-//    public String roar();
+
 
     public int getHealthValue() {
         return this.healthValue;
@@ -33,3 +33,5 @@ public abstract class Kaiju {
 
 
 }
+// 'attack' method used to damage vehicles
+//         'move'/'fly' method returns a string (depending on the Kaiju

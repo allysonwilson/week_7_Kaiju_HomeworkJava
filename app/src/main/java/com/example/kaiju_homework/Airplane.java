@@ -5,5 +5,9 @@ package com.example.kaiju_homework;
  */
 
 public class Airplane extends Vehicle {
-    super("fighter jet")
+    public Airplane() {
+        super("fighter jet", 5);
+    }
 }
+
+
