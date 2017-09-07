@@ -15,12 +15,15 @@ public class AirplaneTest {
     Airplane airplane;
 
     @Before
-    public void before(){ Airplane = new airplane(); }
+    public void before(){ airplane = new Airplane(); }
+
 
     @Test
     public void testAirplaneHasType(){
         assertEquals("fighter jet", airplane.getType() );
     }
 
-}
-
+    @Test
+    public void testAirplaneHasHealthValue(){
+        assertEquals(5, airplane.getHealthValue() );
+    }

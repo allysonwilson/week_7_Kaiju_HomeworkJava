@@ -5,16 +5,26 @@ package com.example.kaiju_homework;
  */
 
 public class Godzilla extends Kaiju{
-    public Godzilla() {
+        public Godzilla() {
         super("Godzilla", 100, 10);
 
     }
 
-
+    public String move() { return ("Stomp, Stomp, Stomp")}
     public String roar() {
         return ("grumble grumble");
     }
 
+    public void smash( attackValue)
+
 }
+    public void smash(Attack attackValue) { damage -= attack.getAttackValue(); }
 
-
+//    public Trout() {
+//        calories = 500;
+//    }
+//
+//    public int getCalories() {
+//        return calories;
+//    }
+//}
